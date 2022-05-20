@@ -1,0 +1,142 @@
+@media all and (max-width: 1024px) {
+
+    /* 戻るボタン */
+    .back {
+        top: 7vw;
+        font-size: 2.5vw;
+    }
+
+    .back:active {
+        top: 7.2vw;
+    }
+
+    /* 評価詳細 */
+
+    .list-box {
+        padding-top: 27vw;
+    }
+
+    .class-content {
+        width: 62vw;
+        height: 52vw;
+    }
+
+    .name-type {
+        height: 5vw;
+    }
+
+    .con-name {
+        font-size: 2.5vw;
+    }
+
+    .con-name span {
+        font-size: 1.8vw !important;
+    }
+
+    
+    .con-charge p {
+        font-size: 12px;
+        width: 100%;
+        height: 2.4vw;
+    }
+
+    .con-star {
+        font-size: 4vw;
+    }
+
+    .con-under {
+        font-size: 2.3vw;
+    }
+
+    .con-comment {
+        height: 28vw;
+    }
+
+    .con-comment p {
+        font-size: 2.2vw;
+    }
+
+    .con-date {
+        font-size: 2.2vw;
+    }
+
+}
+
+@media all and (max-width: 560px) {
+
+    
+
+    /* 戻るボタン */
+    .back {
+        top: 130px;
+        font-size: 15px;
+        padding: 20px 30px;
+    }
+    .back:active {
+        top: 133px;
+    }
+
+
+    /* 評価詳細 */
+
+    .list-box {
+        padding-top: 220px;
+        height: auto;
+    }
+
+    .class-content {
+        width: 280px;
+        height: auto;
+    }
+
+    .name-type {
+        height: auto;
+        border-bottom: none;
+        padding: 0;
+    }
+
+    .con-name {
+        font-size: 17px;
+        height: auto;
+    }
+    .con-name p {
+        padding: 7px 0 5px 0;
+        border-bottom: 1px solid rgb(228, 226, 226);
+    }
+    .con-name span {
+        top: 0.5px;
+        font-size: 13px !important;
+        position: relative;
+        padding: 3px 4px;
+    }
+    
+    .con-charge p {
+        font-size: 13px;
+        width: 100%;
+        height: auto;
+        padding: 0px auto;
+    }
+
+    .con-star {
+        font-size: 28px;
+    }
+
+    .con-under {
+        font-size: 15px;
+    }
+
+    .con-comment {
+        height: 130px;
+    }
+
+    .con-comment p {
+        overflow-y: scroll;
+        font-size: 13px;
+    }
+
+    .con-date {
+        font-size: 12px;
+    }
+
+    
+}

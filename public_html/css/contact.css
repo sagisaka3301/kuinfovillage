@@ -1,0 +1,107 @@
+
+.content textarea {
+    resize: none;
+    outline: none;
+}
+
+/* メイン */
+.con-title {
+    text-align: center;
+    padding-top: 25px;
+}
+.con-title h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    padding-top: 20px;
+    letter-spacing: 5px;
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+}
+.con-title h2 {
+    letter-spacing: 7px;
+    font-size: 45px;
+    text-shadow: 0 0 0.05em #4ed5ec, 0 0 0.05em #4ed5ec, 0 0 0.05em #3676ee,  /* 導線の輪郭 */
+                0 0 0.5em #4ed5ec, 0 0 0.5em #4ed5ec, 0 0 0.5em #3676ee,  /* 導線の輪郭 */
+                0 0.05em 0.01em #000;
+    border-bottom: 2px solid rgb(158, 157, 157);
+    margin-top: 0px;
+    padding-bottom: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+.complain {
+    text-align: center;
+    width: 55%;
+    margin: 0 auto;
+    font-size: 1.2vw;
+    padding-top: 2vw;
+}
+
+.name-mail {
+    width: 50%;
+    margin: 2vw auto 2vw auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name {
+    margin: 0 auto;
+}
+
+.name input {
+    width: 240px;
+    height: 30px;
+}
+
+.mail {
+    margin: 0 auto;
+}
+
+.mail input {
+    width: 240px;
+    height: 30px;
+}
+
+.content {
+    width: 43%;
+    margin: 0 auto;
+    
+}
+
+.content textarea {
+    height: 8vw;
+    width: 100%;
+}
+
+.s-btn {
+    margin: 3vw 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.sub-btn {
+    margin: 0 auto;
+    font-size: 15px;
+    box-shadow: black;
+    cursor: pointer;
+    padding: 6px 27px;
+    background: linear-gradient(#1E00FF, #05FBFF);
+    color: white;
+    border: none;
+    padding: 5px 60px;
+    border-radius: 7px;
+    box-shadow: 0 3px 0 rgba(0,0,0,0.4);
+}
+
+.sub-btn:hover {
+    filter: brightness(115%);
+}
+
+.sub-btn:active {
+    position: relative;
+    top: 4px;
+    box-shadow: none;
+}
+

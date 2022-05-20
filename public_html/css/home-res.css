@@ -1,0 +1,389 @@
+@media all and (max-width: 1024px) {
+
+    /* メイン */
+    .main-slider {
+        height: 46vw;
+    }
+
+    .carousel-control {
+        height: 46vw;
+    }
+
+    .item {
+        height: 47vw;
+    }
+
+    .item img {
+        height: 46vw;
+    }
+
+    .about-box {
+        height: 44vw;
+    }
+
+    .logo-mix-area {
+        height:300px;
+    }
+
+    .about-text-area {
+        margin-top: 10vw;
+
+    }
+
+    .about-text p {
+        font-size: 13px;
+        line-height: 35px;
+    }
+
+    /* サービス紹介コンテンツエリア */
+    .ser-top {
+        height: 37vw;
+    }
+
+    .ser-title {
+        padding-top: 14vw;
+    }
+
+    .ser-about {
+        width: 44vw;
+        bottom: 70px;
+    }
+
+    .abo-inner {
+        width: 75%;
+    }
+
+    .abo-inner h2 {
+        font-size: 25px;
+        padding-top: 5vw;
+    }
+
+    .abo-inner h3 {
+        font-size: 20px;
+    } 
+
+    .abo-inner p {
+        font-size: 12px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        line-height: 25px;
+    }
+
+    .ser-dis {
+        height: 39vw;
+    }
+
+    .dis-area {
+        left: 7%;
+        top: 4vw;
+    }
+
+    .dis-area {
+        width: 80%;
+        left: 5%;
+    }
+
+    .dis-area h2 {
+        padding-top:1vw;
+    }
+
+    .dis-area h3 {
+        font-size: 20px;
+    }
+
+    .dis-area p {
+        font-size: 12px;
+        padding-top: 2vw;
+    }
+
+    /* 注意事項 */
+    .information {
+        padding-top: 11vw;
+    }
+
+    .info-title h2 {
+        font-size: 40px;
+    }
+
+    .i-block {
+        height: 400px;
+        width: 60%;
+    }
+
+    .i-block h3 {
+        font-size: 26px;
+    }
+
+    .i-icon i {
+        font-size: 55px;
+    }
+
+    .i-block p {
+        line-height: 30px;
+        font-size: 11px;
+    }
+
+    .con-title h2{
+        font-size: 42px;
+    }
+
+}
+
+@media all and (max-width: 560px) {
+
+    .res-first {
+        display: block;
+        background-image: url('../img/pagoda-re.png');
+        width: 100%;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    /* メイン */
+    .main {
+        padding-top: 0px;
+    }
+    .main-slider {
+        display: none;
+    }
+    .view {
+        display: none;
+    }
+
+    .am {
+        display: block;
+    }
+
+    .about-box {
+        height: 200px;
+        margin-bottom: 8vw;
+    }
+
+    .about-logo {
+        width: 31%;
+    }
+
+    .logo-mix-area {
+        height:100px;
+        margin-left: 18%;
+    }
+
+    .about-text-area {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .k {
+        font-size: 89px;
+        left: 0px;
+    }
+
+    .u {
+        font-size: 89px;
+        bottom: 100px;
+        left: 28px;
+        display: block;
+    }
+    
+    .about-text {
+        width: 50%;
+    }
+    .about-text h3 {
+        margin-top: 10px;
+        font-size: 24px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid black;
+    }
+    .about-text p {
+        font-size: 8px;
+        line-height: 15px;
+        margin-top: 20px;
+    }
+
+    /* サービス紹介コンテンツエリア */
+    .ser-top {
+        height: 150px;
+    }
+
+    .ser-title {
+        padding-top: 60px;
+        font-size: 18px;
+    }
+    .ser-title p {
+        font-size: 20px;
+    }
+
+    .ser-about {
+        width: 200px;
+        bottom: 50px;
+    }
+
+    .abo-inner {
+        width: 75%;
+    }
+
+    .abo-inner h2 {
+        font-size: 12px;
+        padding-top: 11px;
+    }
+
+    .abo-inner h3 {
+        font-size: 12px;
+        margin-top: 5px;
+    } 
+
+    .abo-inner p {
+        font-size: 10px;
+        padding-top: 6px;
+        padding-bottom: 10px;
+        line-height: 15px;
+    }
+
+    .abo-a {
+        display: none;
+    }
+
+    .abo-b {
+        display: block;
+        font-size: 9px;
+    }
+
+    .ser-dis {
+        height: 180px;
+        width: 100%;
+        background-attachment: local;
+    }
+    
+
+    .dis-area {
+        left: 0%;
+        width: 90%;
+        top: 0vw;
+        margin: 0 auto;
+    }
+
+    .dis-area h2 {
+        position: relative;
+        /* display: none; */
+        width: 10%;
+        padding-top: 30px;
+        font-size: 12px;
+    }
+
+    .dis-p {
+        display: none;
+    }
+
+    .dis-p-b {
+        display: block;
+    }
+
+    .dis-area h3 {
+        width: 80%;
+        font-size: 12px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .dis-area p {
+        font-size: 10px;
+        padding-top: 7px;
+        line-height: 14px;
+        width: 100%;
+    }
+
+    .dis-p-b {
+        font-size: 7px;
+    }
+
+    /* 注意事項 */
+    .information {
+        padding-top: 50px;
+    }
+    .info-title p {
+        font-size: 11px;
+        letter-spacing: 10px;
+        margin-bottom: 3px;
+    }
+
+    .info-title h2 {
+        font-size: 35px;
+        letter-spacing: 1px;
+        padding-bottom: 15px;
+        width: 75%;
+        border-bottom: 1px solid rgb(95, 94, 94);
+    }
+
+    .info-inner {
+        width: 97%;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .i-block {
+        height: 300px;
+        width: 84%;
+    }
+
+    .i-block h3 {
+        font-size: 20px;
+    }
+
+    .i-icon i {
+        font-size: 45px;
+    }
+
+    .i-block p {
+        line-height: 25px;
+        font-size: 12px;
+    }
+    .con-area {
+        margin-top: 50px;
+    }
+
+    .con-title h2 {
+        font-size: 35px;
+        letter-spacing: 5px;
+        text-indent: 5px;
+        padding-bottom: 15px;
+        width: 75%;
+        border-bottom: 1px solid rgb(95, 94, 94);
+    }
+
+    .con-title p {
+        font-size: 11px;
+        width: 75%;
+    }
+    
+    .con-t-text p {
+        font-size: 10px;
+        letter-spacing: 12px;
+        /* text-indent: 12px; */
+    }
+    .con-link {
+        margin-top: 20px;
+    }
+    .con-link a {
+        font-size: 13px;
+        padding: 10px 40px;
+    }
+    .twi-title {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .con-twi-link p {
+        font-size: 11px;
+        margin-top: 30px;
+        padding-bottom: 10px;
+    }
+    .twi-title a {
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+        padding: 10px 30px;
+    }
+
+
+}

@@ -1,0 +1,101 @@
+@media all and (max-width: 1024px) {
+
+    
+}
+
+@media all and (max-width: 560px) {
+    .title {
+        padding-top: 90px;
+    }
+    /* 戻るボタン */
+    .back-sec a {
+        top: 150px;
+        font-size: 14px;
+        padding: 15px 25px;
+    }
+    .back-sec a:active {
+        top: 153px;
+    }
+
+    /* メイン */
+    .title h3 {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .back {
+        top: 42vw;
+        padding: 20px 30px;
+        font-size: 3.5vw;
+    }
+
+    .back:active {
+        top: 42.3vw;
+    }
+
+    /* 評価一覧 */
+    .contents {
+        padding-top: 75px;
+    }
+
+    .class-content {
+        width: 40.5vw;
+        height: auto;
+    }
+
+    .name-type {
+        height: 8.2vw;
+    }
+
+    .con-name {
+        margin-top: 0.3vw;
+        font-size: 3.5vw;
+    }
+
+    .con-name span {
+        font-size: 3.6vw !important;
+        padding: 1.4vw 1.5vw;
+    }
+
+    .con-charge {
+        margin: 0%;
+        height: 6.5vw;
+    }
+
+    .con-charge p {
+        width: 100%;
+        height: 4.5vw;
+        margin: 0%;
+        font-size: 10px;
+    }
+
+    .con-star {
+        font-size: 4.8vw;
+    }
+
+    .con-under {
+        font-size: 3vw;
+    }
+
+    .deta {
+        font-size: 3vw;
+    }
+
+    .con-comment {
+        height: 12.9vw;
+    }
+
+    .con-comment p {
+        font-size: 10.5px;
+        -webkit-line-clamp: 3;
+
+    }
+
+    .con-date {
+        font-size: 1.7vw;
+    }
+    .con-date p {
+        margin-bottom: 2px;
+    }
+
+}

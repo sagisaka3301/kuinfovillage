@@ -1,0 +1,82 @@
+@media all and (max-width: 1024px) {
+
+    
+}
+
+@media all and (max-width: 560px) {
+
+    .h-title {
+        padding-top: 80px;
+    }
+    .h-title h3 {
+        font-size: 14px;
+    }
+    .h-title h2 {
+        font-size: 35px;
+    }
+    .user-info {
+        width: 85%;
+        font-size: 15px;
+    }
+    .ui-title h3 {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .pro-img-front {
+        position: relative;
+        text-align: center;
+        left: 0;
+        top: 15px;
+    }
+    .pro-img-front img {
+        width: 120px;
+        height: 120px;
+    }
+    #image_in {
+        position: relative;
+        width: 100%;
+    }
+    #image_in img {
+        top: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .edit-logout {
+        width: 80%;
+        flex-direction: column;
+    }
+    .edit-btn {
+        font-size: 14px;
+    }
+    .edit-logout input {
+        font-size: 14px;
+        padding: 5px 40px;
+        margin-top: 10px;
+    }
+    .edit-form {
+        width: 90%;
+        top: 55%;
+    }
+    .edit-inner {
+        flex-direction: column;
+        width: 100%;
+    }
+    .image-edit {
+        height: auto;
+    }
+    .image-e-form {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .n-m-edit {
+        width: 80%;
+        margin: 150px auto 0 auto;
+        text-align: center;
+    }
+    .name-edit input, .mail-edit input {
+        width: 100%;
+    }
+    .submit-btn {
+        width: 60%;
+    }
+}

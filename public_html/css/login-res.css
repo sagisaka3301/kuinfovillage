@@ -1,0 +1,129 @@
+@media all and (max-width: 1025px) {
+
+    .title {
+        padding-top: 35vw;
+        position: fixed;
+        width: 100%;
+    }
+
+    .title h2 {
+        font-size: 105px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .btns {
+        top: 80vw;
+    }
+
+    .new-user-box {
+        width: 70%;
+        height: 500px;
+    }
+
+    .batsu {
+        right: 18px;
+    }
+    
+    .user-group input {
+        height: 35px;
+    }
+
+    .comp-btn input {
+        width: 60%;
+    }
+
+    /* ログインフォーム */
+    .login-box {
+        width: 70%;
+    }
+
+    .batsu-b {
+        right: 18px;
+    }
+
+    .comp-btn-b {
+        width: 70%;
+        height: 30px;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    .comp-btn-b input {
+        width: 60%;
+    }
+}
+
+@media all and (max-width: 560px) {
+
+    .title {
+        padding-top: 200px;
+        position: fixed;
+        width: 100%;
+    }
+
+    .title h2 {
+        color: white;
+        font-size: 52px;
+        letter-spacing: 13px;
+        /* background-color: blue; */
+        margin: 0 auto;
+    }
+
+    .btns {
+        top: 370px;
+    }
+
+    .btns-inner {
+        width: 80%;
+    }
+
+    .btns p {
+        font-size: 12px;
+        width: 120px;
+        padding: 6px 10px;
+        height: 28px;
+    }
+
+    .new-user-box {
+        width: 80%;
+        height: 500px;
+    }
+
+    .batsu {
+        right: 18px;
+        border: none;
+    }
+
+    .batsu-b {
+        border: none;
+    }
+    
+    .user-group input {
+        height: 35px;
+    }
+
+    .comp-btn input {
+        width: 60%;
+    }
+
+    /* ログインフォーム */
+    .login-box {
+        width: 80%;
+    }
+
+    .batsu-b {
+        right: 18px;
+    }
+
+    .comp-btn-b {
+        width: 70%;
+        height: 30px;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    .comp-btn-b input {
+        width: 60%;
+    }
+}
