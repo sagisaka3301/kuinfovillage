@@ -13,6 +13,7 @@ if (!isset($_SESSION['csrf_token']) || $token !== $_SESSION['csrf_token']) {
 unset($_SESSION['csrf_token']);
 
 // バリデーション
+
 if(!$username = filter_input(INPUT_POST, 'username')) {
     $err[] = 'ユーザー名を記入してください。';
 }
@@ -27,7 +28,12 @@ if(!strpos($email, KEY_WORD)) {
 if(!preg_match(KEY_NUM, $email)) {
     $err[] = '神奈川大学の学生以外は登録しないでください。';
 }
+/* メールアドレス重複チェック */
+$checkMail = UserLogic::checkMail($email);
 
+if(count($checkMail) > 0) {
+    $err[] = 'そのメールアドレスは既に使われています。';
+}
 
 $password = filter_input(INPUT_POST, 'password');
 
